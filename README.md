@@ -250,3 +250,323 @@ main() {
   // code here
 }
 ```
+
+### Question22
+```dart
+void yourFunction(int n){
+  // code here
+}
+
+main() {
+  // สร้างฟังก์ชันที่รับค่า int n
+  // จากนั้นพิมพ์ตัวเลขที่หารด้วย 3 ลงตัวตั้งแต่ 1 ถึง n โดยใช้ลูป for
+  // ตัวอย่างเช่น ถ้า n = 10, ผลลัพธ์ควรเป็น: 3, 6, 9
+
+  int n = 10;
+
+  yourFunction(n)
+}
+```
+
+### Question23
+```dart
+// void doSum(){
+// write your function here
+// }
+
+main() {
+  // สร้างฟังก์ชันที่รับค่า int n
+  // จากนั้นพิมพ์ผลบวกของเลขคู่ตั้งแต่ 1 ถึง n โดยใช้ลูป for
+  // ตัวอย่างเช่น ถ้า n = 10, ผลลัพธ์ควรเป็น: 2 + 4 + 6 + 8 + 10 = 30
+
+  int n = 10;
+
+  doSum(n)
+}
+```
+
+### Question24
+```dart
+// create a function here
+
+main() {
+  // สร้างฟังก์ชันที่รับค่า int n
+  // จากนั้นพิมพ์ตัวเลขที่เป็นคี่ตั้งแต่ 1 ถึง n โดยใช้ลูป while
+  // ตัวอย่างเช่น ถ้า n = 10, ผลลัพธ์ควรเป็น: 1, 3, 5, 7, 9
+
+  int n = 10;
+
+  printEven(n)
+}
+```
+
+### Question25
+```dart
+// code here
+
+main() {
+  // สร้างฟังก์ชันที่รับค่า int n
+  // จากนั้นพิมพ์ตารางสูตรคูณของ n โดยใช้ลูป for
+  // ตัวอย่างเช่น ถ้า n = 5, ผลลัพธ์ควรเป็น:
+  // 5 x 1 = 5
+  // 5 x 2 = 10
+  // ...
+  // 5 x 10 = 50
+
+  int n = 5;
+
+  printMultiTable(n)
+}
+```
+
+### Question26
+```dart
+main() {
+  // สร้างฟังก์ชันที่รับค่า int n
+  // จากนั้นพิมพ์ผลรวมของเลขตั้งแต่ 1 ถึง n ที่หารด้วย 5 ลงตัว โดยใช้ลูป for
+  // ตัวอย่างเช่น ถ้า n = 20, ผลลัพธ์ควรเป็น: 5 + 10 + 15 + 20 = 50
+
+  int n = 20;
+
+  // code here
+}
+```
+
+### Question27
+```dart
+main() {
+  // สร้างฟังก์ชันที่รับค่า int n
+  // จากนั้นพิมพ์ตัวเลขตั้งแต่ 1 ถึง n ที่ไม่หารด้วย 4 ลงตัว โดยใช้ลูป for
+  // hint: ใช้คำสั่ง continue เพื่อข้ามตัวเลขที่หารด้วย 4 ลงตัว
+
+  int n = 10;
+
+  // code here
+}
+```
+
+### Question28
+```dart
+main() {
+  // สร้างฟังก์ชันที่รับค่า int n
+  // จากนั้นพิมพ์ตัวเลขตั้งแต่ 1 ถึง n จนกว่าจะพบตัวเลขที่หารด้วย 7 ลงตัว โดยใช้ลูป for
+  // hint: ใช้คำสั่ง break เพื่อหยุดลูปเมื่อพบตัวเลขที่หารด้วย 7 ลงตัว
+
+  int n = 20;
+
+  // code here
+}
+```
+
+### Question29
+```dart
+// สร้างฟังก์ชันที่รับค่า int n และค่า int step (ค่า step เป็นค่าเริ่มต้น 1)
+// ฟังก์ชันจะพิมพ์ตัวเลขตั้งแต่ 1 ถึง n โดยเพิ่มค่า step ทีละขั้น
+// ถ้าไม่ได้ระบุค่า step จะใช้ค่าเริ่มต้นเป็น 1
+
+void printNumbers(int n, {int step = 1}) {
+  // code here
+}
+
+void main() {
+  printNumbers(10);    // ใช้ค่า step เป็น 1
+  printNumbers(10, {step: 2}); // ใช้ค่า step เป็น 2
+}
+```
+
+### Question30
+```dart
+// สร้างฟังก์ชันที่รับค่า int start, int end, และ int step (ค่า step เป็นค่าเริ่มต้น 1)
+// ฟังก์ชันจะพิมพ์ตัวเลขตั้งแต่ start ถึง end โดยเพิ่มค่า step ทีละขั้น
+// ใช้ named arguments สำหรับ start, end, และ step
+// hint: {required int start, int step = 1}
+
+void printRange(
+// code here
+// code here
+// code here
+) {
+  // for (int i = start; i <= end; i += step) {
+  //  print(i);
+  // }
+}
+
+void main() {
+  printRange(start: 1, end: 10);    // ใช้ค่า step เป็น 1
+  printRange(start: 1, end: 10, step: 2); // ใช้ค่า step เป็น 2
+}
+```
+
+### Question31
+```dart
+// สร้างฟังก์ชันที่รับค่า String name, int age, และ String country (ค่า country เป็นค่าเริ่มต้น "Unknown")
+// ฟังก์ชันจะพิมพ์ข้อความที่ระบุชื่อ, อายุ และประเทศ
+// ใช้ named arguments สำหรับ name, age, และ country
+
+void printPersonInfo({
+// missing argument?
+required int age, String country = "Unknown"}) {
+  print("Name: $name");
+  // code here; print age and country
+}
+
+void main() {
+  printPersonInfo(name: "Alice", age: 30); // ใช้ค่า default สำหรับ country
+  printPersonInfo(name: "Bob", age: 25, country: "Thailand"); // ระบุค่า country
+}
+```
+
+### Question32
+```dart
+// สร้างฟังก์ชันที่รับค่า int a และ int b
+// ฟังก์ชันจะคืนค่าผลรวมของ a และ b
+// จากนั้นในฟังก์ชัน main ให้พิมพ์ผลลัพธ์ที่ได้จากการเรียกใช้ฟังก์ชันนี้
+
+int add(int a, int b) {
+  // code here
+}
+
+void main() {
+  int result = add(5, 7);
+  print(result); // ควรพิมพ์ 12
+}
+```
+
+### Question33
+```dart
+// สร้างฟังก์ชันที่รับค่า int n
+// ฟังก์ชันจะคืนค่าผลคูณของตัวเลขตั้งแต่ 1 ถึง n
+// จากนั้นในฟังก์ชัน main ให้พิมพ์ผลลัพธ์ที่ได้จากการเรียกใช้ฟังก์ชันนี้
+
+int multiply(int n) {
+  // code here
+}
+
+void main() {
+  int result = multiply(5);
+  print(result); // ควรพิมพ์ 120 (ผลคูณของ 1, 2, 3, 4, 5)
+}
+```
+
+### Question34
+```dart
+// สร้างฟังก์ชันที่รับค่า int n
+// ฟังก์ชันจะคืนค่าข้อความ "Even" ถ้า n เป็นเลขคู่ และ "Odd" ถ้า n เป็นเลขคี่
+// จากนั้นในฟังก์ชัน main ให้พิมพ์ผลลัพธ์ที่ได้จากการเรียกใช้ฟังก์ชันนี้
+
+String checkEvenOdd(int n) {
+  // code here
+}
+
+void main() {
+  String result = checkEvenOdd(4);
+  print(result); // ควรพิมพ์ "Even"
+  
+  result = checkEvenOdd(7);
+  print(result); // ควรพิมพ์ "Odd"
+}
+```
+
+### Question35
+```dart
+// สร้างฟังก์ชันที่รับค่า int score
+// ฟังก์ชันจะคืนค่าเกรดตามคะแนนที่ได้รับ โดยใช้เกณฑ์ต่อไปนี้:
+// - คะแนน 90 ขึ้นไป: "A"
+// - คะแนน 80 ถึง 89: "B"
+// - คะแนน 70 ถึง 79: "C"
+// - คะแนน 60 ถึง 69: "D"
+// - คะแนนต่ำกว่า 60: "F"
+// จากนั้นในฟังก์ชัน main ให้พิมพ์ผลลัพธ์ที่ได้จากการเรียกใช้ฟังก์ชันนี้
+
+String determineGrade(int score) {
+  // code here
+}
+
+void main() {
+  String grade = determineGrade(85);
+  print(grade); // ควรพิมพ์ "B"
+  
+  grade = determineGrade(55);
+  print(grade); // ควรพิมพ์ "F"
+}
+```
+
+### Question36
+```dart
+// สร้างฟังก์ชันที่รับค่า int n
+// ฟังก์ชันจะคืนค่าผลลัพธ์ของการคูณตัวเลขตั้งแต่ 1 ถึง n (factorial)
+// แต่ให้ทำงานกับค่าของ n ที่ไม่เกิน 5
+// จากนั้นในฟังก์ชัน main ให้พิมพ์ผลลัพธ์ที่ได้จากการเรียกใช้ฟังก์ชันนี้
+
+void main() {
+  int result = factorial(3);
+  print(result); // ควรพิมพ์ 6 (ผลคูณของ 1, 2, 3)
+  
+  result = factorial(4);
+  print(result); // ควรพิมพ์ 24 (ผลคูณของ 1, 2, 3, 4)
+}
+```
+
+### Question37
+```dart
+// สร้างฟังก์ชันที่รับค่า List<int> numbers
+// ฟังก์ชันจะคืนค่าผลรวมของตัวเลขในลิสต์
+// จากนั้นในฟังก์ชัน main ให้พิมพ์ผลลัพธ์ที่ได้จากการเรียกใช้ฟังก์ชันนี้
+
+int sumList(List<int> numbers) {
+  // code here
+}
+
+void main() {
+  int result = sumList([1, 2, 3, 4, 5]);
+  print(result); // ควรพิมพ์ 15 (ผลรวมของ 1, 2, 3, 4, 5)
+}
+```
+
+### Question38
+```dart
+// สร้างฟังก์ชันที่รับค่า List<int> numbers
+// ฟังก์ชันจะคืนค่าตัวเลขที่มากที่สุดในลิสต์
+// จากนั้นในฟังก์ชัน main ให้พิมพ์ผลลัพธ์ที่ได้จากการเรียกใช้ฟังก์ชันนี้
+
+int findMax(List<int> numbers) {
+  // code here
+}
+
+void main() {
+  int max = findMax([4, 7, 1, 9, 3]);
+  print(max); // ควรพิมพ์ 9 (ตัวเลขที่มากที่สุดในลิสต์)
+}
+```
+
+### Question39
+```dart
+// สร้างฟังก์ชันที่รับค่า List<int> numbers
+// ฟังก์ชันจะคืนค่าลิสต์ใหม่ที่มีตัวเลขในลิสต์เดิมแต่เพิ่ม 1 ทุกตัว
+// จากนั้นในฟังก์ชัน main ให้พิมพ์ผลลัพธ์ที่ได้จากการเรียกใช้ฟังก์ชันนี้
+
+List<int> incrementList(List<int> numbers) {
+  // code here
+}
+
+void main() {
+  List<int> incremented = incrementList([1, 2, 3, 4]);
+  print(incremented); // ควรพิมพ์ [2, 3, 4, 5] (เพิ่ม 1 ให้ทุกตัวเลขในลิสต์)
+}
+```
+
+### Question40
+```dart
+// สร้างฟังก์ชันที่รับค่า List<int> numbers
+// ฟังก์ชันจะคืนค่าลิสต์ใหม่ที่มีตัวเลขที่เป็นเลขคู่จากลิสต์เดิมเท่านั้น
+// จากนั้นในฟังก์ชัน main ให้พิมพ์ผลลัพธ์ที่ได้จากการเรียกใช้ฟังก์ชันนี้
+
+List<int> filterEven(List<int> numbers) {
+  // code here
+}
+
+void main() {
+  List<int> evens = filterEven([1, 2, 3, 4, 5, 6]);
+  print(evens); // ควรพิมพ์ [2, 4, 6] (ตัวเลขคู่ในลิสต์)
+}
+```
